@@ -1,16 +1,7 @@
-# cryptocurrency
+This is a Cryptocurrency app which gets the live data from an external cryptocurrency API.
 
-A new Flutter application.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_20201002-214931](https://user-images.githubusercontent.com/60658794/94949869-4a05d580-04ff-11eb-8510-266d6991877e.jpg)
+![Screenshot_20201002-214854](https://user-images.githubusercontent.com/60658794/94950028-8a655380-04ff-11eb-86d6-090695501520.jpg)
+![Screenshot_20201002-214912](https://user-images.githubusercontent.com/60658794/94950052-94875200-04ff-11eb-89a9-425b7c6a8485.jpg)
+![Screenshot_20201002-214902](https://user-images.githubusercontent.com/60658794/94950073-9ea95080-04ff-11eb-9740-28ab32e07303.jpg)
+ 
