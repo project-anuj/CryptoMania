@@ -58,12 +58,13 @@ class _DetailsState extends State<Details> {
   @override
   Widget build(BuildContext context) {
     final double height = MediaQuery.of(context).size.height;
-    final double width = MediaQuery.of(context).size.width;
     return Scaffold(
         appBar: AppBar(
           title: Text(widget.name),
+          backgroundColor: Colors.indigoAccent,
           actions: [
             CircleAvatar(
+              backgroundColor: Colors.grey,
               child: SvgPicture.network(
                 widget.url,
               ),
@@ -94,7 +95,12 @@ class _DetailsState extends State<Details> {
                         pointSize: 5,
                         sharpCorners: false,
                         data: _giveData(),
-                        lineColor: Colors.teal,
+                        // lineColor: Colors.teal,
+                        lineGradient: new LinearGradient(
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                          colors: [Colors.purple[800], Colors.purple[200]],
+                        ),
                         pointColor: Colors.blue,
                       ),
                     ),
